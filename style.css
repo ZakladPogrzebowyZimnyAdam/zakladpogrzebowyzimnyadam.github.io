@@ -1,0 +1,583 @@
+
+/* MENU NAWIGACYJNE */
+body {
+  font-family: Arial;
+}
+
+.language {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+   margin: 10px 0 5px 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav ul li:hover > .submenu {
+    display: block;
+    z-index: 2; 
+    position: absolute; 
+}
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 2; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+ 
+ 
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0; 
+  bottom: 0;
+  width: 100%;
+
+}
+
+.copyright {
+ display: flex;
+  text-align: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  font-weight: bold; 
+}
+
+
+
+/* TŁO */
+body {
+  background-image: url('chmury.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* INDEX */
+.logoindex {
+	
+display : flex;
+text-align : center;
+justify-content : center;
+left : 0;
+right : 0;
+bottom : 0;
+width : 100%;
+height : 100%;
+font-weight : bold; 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* KONTAKT */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.left-column {
+  width: 50%;
+  background-color: #EEEEEE;
+  padding: 20px;
+  font-size: 1.0em;
+  font-family: 'Calibri';
+  font-weight: bold;
+  border-right: 1px solid black;
+}
+
+.kontakt {
+  text-align: center;
+}
+	
+#tekst {
+	
+margin-top : 10px;
+margin-left : 60px;
+}
+
+
+
+/* KONTAKT-POZMIENIAĆ KLASY */
+#obszar-z-tekstem {
+  padding: 50px;
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  min-height: auto;
+  position: relative;
+  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.obramowanie {
+margin-top : 250px;
+margin-left : 250px;
+border : #000000 solid 3px;
+padding : 5px;
+box-sizing : border-box;
+max-width : 100%;
+border-radius : 120px;
+text-align : center;
+display : flex;
+align-items : center;
+justify-content : center;
+}
+
+
+
+
+
+
+
+
+
+/* ????????????????????????? */
+.accordion__header {
+  padding: 15px 20px 15px 65px;
+  position: relative;
+
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.accordion__header:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 1;
+
+  transform: translateY(-50%) rotate(135deg);
+}
+/* ????????????????????????? */
+
+
+
+
+/* STRONA GŁÓWNA *//* ????????????????????????? */
+.textbox {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    overflow: hidden;
+
+}
+
+
+/* położenie 1 okna */
+.center-textbox {
+    width: 47.7%;
+    height: 63%;
+    position: absolute;
+    top: 40%;
+    right:1.7%;
+    transform: translate(-97%, -11.2%); 
+    background-color: rgba(211, 245, 236, 0.7); 
+    padding: 15px;
+    border: 4px solid black;
+}
+
+/* położenie 2 okna */
+.center-textbox-2 {
+    width: 47.3%;
+    height: 44.1%;
+    position: absolute;
+    top: 40%;
+    right:1.7%;
+    transform: translate(2.5%, 124%); 
+    background-color: rgba(211, 245, 236, 0.7); 
+    padding: 15px;
+    border: 4px solid black;
+}
+
+/* obrazki na stronie głównej */
+.glrj img:last-child{
+left:0.01%;
+margin-left: 0.4%;
+border: 4px solid black;
+width: 49.3%;
+position: absolute;
+bottom: -52%; 
+
+	}
+
+.glrj img:first-child{
+		margin-right: 10px;
+		border: 4px solid black;
+		width: 48.9%;
+		position: absolute;
+        top: 32.5%; 
+		right: -0.1%
+		
+	}
+	.accordion__content_wedo{
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+	}
+	.uw{
+		
+		width: 100%;
+		margin: 0 auto;
+		
+	}
+
+.accordion__item {
+		margin-bottom: 10px;
+		
+	}
+
+
+
+
+
+
+
+
+/* section */
+.section {
+  padding: 80px 0;
+	
+}
+.uw_obszar{
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+
+
+	
+}
+.uw_obszar{ 
+  font-size: 30px;
+  font-weight: 700;
+	color: #fff;
+  text-transform: uppercase;
+	text-align: center;
+}
+.section__suptitle--wedo {
+  font-size: 24px;
+  color: #fff;
+	text-align: center;
+}
+
+.section__text-wedo {
+  font-size: 15px;
+  color: #fff;
+	text-align: center;
+}
+	
+.container--wedo
+{	
+width: 100%;
+margin: 0 auto;
+}
+
+
+/*FORMULARZ*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 90%;
+  height: 58%;
+  position: absolute;
+  top: 40%;
+  right:1.7%;
+  transform: translate(-200%, -32%); 
+  border-radius: 20px;
+}
+
+label {
+font-family : Calibri;
+font-size : 1rem;
+}
+
+
+label2 {
+  font-weight: bold;
+  clear: both;
+  font-size: 1.2em;
+  font-family: Calibri;
+  color: #000000;
+}
+
+input[type="submit"] {
+  align-self: center;
+  text-align: center;
+  margin-top: 10%;
+  width: 60%;
+  height: 30%;
+}
+
+form {
+  margin-top: 2%;
+  background-color: beige;
+  width: 220px;
+  padding: 20px;
+  float: right;
+  margin-right: 20px;
+}
+
+form label, form input[type="submit"] {
+  display: block;
+  margin-bottom: 2%;
+  font-size: 1.0em;
+  font-family: Calibri;
+  color: #000000;
+}
+
+form input[type="imie"], form input[type="email"], form input[type="telefon"], form input[type="social"], form select[type="wybierz"]{
+  width: 220px;
+  font-size: 1.0em;
+  font-family: Calibri;
+  color: #000000;
+}
+
+form label {
+  clear: both;
+  font-size: 1.2em;
+  font-family: Calibri;
+  color: #000000;
+}
+
+
+/* położenie okna w formularzu */
+.formularz_tekst {
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    top: 40%;
+    right:1.7%;
+    transform: translate(-200%, -25%); 
+    background-color: rgba(211, 245, 236, 0.8); 
+    padding: 15px;
+    border: 4px solid black;
+	border-radius: 120px;	
+}
+
+.ftekst {
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	width: 70%;
+	
+}
+
+
+
+/* GALERIA */
+
+.galeria-zdj {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+  justify-content: center;
+ 
+  
+}
+
+.okno-galeria {
+  width: 40%;
+  height: 10%;
+  margin: 2%;
+  border: 5px solid black;
+  overflow: hidden;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+
+/* GÓRNE CZARNE OBRAMOWANIE NA KAZDEJ PODSTRONIE */
+#obszar-z-tekstem-strona {
+  height: 10%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 1);
+  min-height: auto;
+  position: relative;
+  align-items: center; 
+  display: flex; 
+  justify-content: center; 
+  border-radius: 10px;
+  margin-top: -6%;
+}
+
+.obramowanie-strona {
+margin-top : 250px;
+margin-left : 250px;
+border : #000000 solid 3px;
+padding : 5px;
+box-sizing : border-box;
+max-width : 100%;
+border-radius : 120px;
+text-align : center;
+display : flex;
+align-items : center;
+justify-content : center;
+}
+
+
+
+/* O FIRMIE */
+.ofirmie_tekst {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 40%;
+    right:1.7%;
+    transform: translate(-42%, -18%); 
+    background-color: rgba(211, 245, 236, 0.8); 
+    padding: 15px;
+    border: 4px solid black;
+	border-radius: 120px;
+	text-align: center;
+	
+}
+	
+	
+
+
+.organizacja_tekst {
+  width: 50%;
+  height: 55%;
+  position: absolute;
+  bottom: -30%; 
+  right: 1.2%;
+  transform: translate(-42%, -50%); 
+  background-color: rgba(211, 245, 236, 0.8); 
+  padding: 20px;
+  border: 4px solid black;
+  border-radius: 120px;
+  text-align: center;
+  margin-bottom: 100px;
+  
+}
+
+
+
+.mrozwijane
+{
+	border-top:1px solid white;
+	background-color: rgba(128, 128, 128, 0.9);
+	padding:10px;
+	border-radius: 120px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+
+
+
+/* OFERTA */
+.oferta {
+  display: flex;
+  justify-content: center;
+  margin: 50px 5%; 
+}
+
+.ofertakol {
+  width: 40%; 
+  background: linear-gradient(to right, #A1D7D5 0%, #68B0AE 25%, #396866 50%, #091716 100%);
+  padding: 20px;
+  font-size: 1.0em;
+  font-family: 'Calibri';
+  font-weight: bold;
+  height: 46%;
+}
+
+.ofertaramka {
+  border: 3px solid black; 
+  padding: 10px; 
+  margin: 10px 0;
+  height: 46%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cofertasr {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Calibri';
+  font-weight: bold;
+}
+
+
+
+
+
+
